@@ -8,4 +8,4 @@ SECRET_KEY = env(
     default="django-insecure-cmkq!a%g-w80w6lglr1=5-(g#4ewncys&t!u_pz7m$genad)w=",
 )
 
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "api"]
