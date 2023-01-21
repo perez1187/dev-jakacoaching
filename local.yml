@@ -23,17 +23,6 @@ services:
             # - redis
         networks:
             - jakacoaching-api-live
-    # client:
-    #     build:
-    #         context: ./client
-    #         dockerfile: ./docker/local/Dockerfile
-            
-    #     restart: on-failure
-    #     volumes:
-    #         - ./client:/app
-    #         - /app/node_modules
-    #     networks:
-    #         - jakacoaching-api-live            
 
     postgres:
         build:
